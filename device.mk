@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oneplus_kona
+    vendor.lineage.powershare@1.0-service.oneplus
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
