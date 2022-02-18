@@ -22,36 +22,28 @@
 # definition file).
 #
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
+# Include GSI keys
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/sony/pdx203/pdx203-vendor.mk)
+
+# Inherit from common
+$(call inherit-product, device/sony/edo-common/edo.mk)
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 3168
-TARGET_SCREEN_WIDTH := 1440
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
 
-# Audio
+# DTBO
+LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
+
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
-
-# Device init scripts
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    init.recovery.target.rc
-
-# PowerShare
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oneplus
-
-PRODUCT_SHIPPING_API_LEVEL := 29
-
-# Inherit from oneplus sm8250-common
-$(call inherit-product, device/oneplus/sm8250-common/common.mk)
-
-# Inherit from vendor blobs
-$(call inherit-product, vendor/oneplus/instantnoodlep/instantnoodlep-vendor.mk)
+    $(LOCAL_DTB):dtb.img

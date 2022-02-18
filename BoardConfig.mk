@@ -14,42 +14,35 @@
 # limitations under the License.
 #
 
-# Inherit from oneplus sm8250-common
--include device/oneplus/sm8250-common/BoardConfigCommon.mk
+# Inherit from sony edo-common
+-include device/sony/edo-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/instantnoodlep
+DEVICE_PATH := device/sony/pdx203
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1440
 
-# Fingerprint
-SOONG_CONFIG_ONEPLUS_FOD_POS_X = 604
-SOONG_CONFIG_ONEPLUS_FOD_POS_Y = 2434
-SOONG_CONFIG_ONEPLUS_FOD_SIZE = 232
+# Display
+TARGET_SCREEN_DENSITY := 417
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+BOARD_KERNEL_SEPARATED_DT := false
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
-# PowerShare
-SOONG_CONFIG_NAMESPACES += ONEPLUS_POWERSHARE
-SOONG_CONFIG_ONEPLUS_POWERSHARE := WIRELESS_TX_ENABLE_PATH
-SOONG_CONFIG_ONEPLUS_POWERSHARE_WIRELESS_TX_ENABLE_PATH := /proc/wireless/enable_tx
+BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
+BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE)
+BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
+BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
+BOARD_MKBOOTIMG_ARGS += --kernel_offset $(BOARD_KERNEL_OFFSET)
+BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_KERNEL_SECOND_OFFSET)
+BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
+BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-# Partitions
-ifneq ($(WITH_GMS),true)
-BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1156055040
-BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 660602880
-BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 660602880
-endif
-BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 7511998464
-BOARD_SUPER_PARTITION_SIZE := 15032385536
-
-# Recovery
-TARGET_RECOVERY_DENSITY := xxhdpi
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/oneplus/instantnoodlep/BoardConfigVendor.mk
+-include vendor/oneplus/pdx203/BoardConfigVendor.mk
