@@ -126,9 +126,9 @@ system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
 
 # Perf
-system_ext/lib64/vendor.qti.hardware.perf@2.0.so
-system_ext/lib64/vendor.qti.hardware.perf@2.1.so
-system_ext/lib64/vendor.qti.hardware.perf@2.2.so
+# system_ext/lib64/vendor.qti.hardware.perf@2.0.so
+# system_ext/lib64/vendor.qti.hardware.perf@2.1.so
+# system_ext/lib64/vendor.qti.hardware.perf@2.2.so
 
 # Radio
 etc/permissions/privapp-permissions-qti.xml
