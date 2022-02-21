@@ -44,5 +44,8 @@ TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Recovery
+TARGET_RECOVERY_DEVICE_DIRS += device/sony/pdx203
+
 # inherit from the proprietary version
 -include vendor/sony/pdx203/BoardConfigVendor.mk
