@@ -45,4 +45,4 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/oneplus/pdx203/BoardConfigVendor.mk
+-include vendor/sony/pdx203/BoardConfigVendor.mk
