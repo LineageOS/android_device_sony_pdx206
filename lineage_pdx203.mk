@@ -40,4 +40,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="Sony/XQ-AT52/XQ-AT52 10 58.0.A.3.224 058000A003022402854466984:user release-keys"
 
+PRODUCT_PROPERTY_OVERRIDES += \
+                       lineage.updater.uri=https://lineage.bbntk.me/LineageOTA/api/v1/{device}/{type}/{incr}
+
 BUILD_FINGERPRINT := Sony/XQ-AT52/XQ-AT52:10/58.0.A.3.224/058000A003022402854466984:user/release-keys
