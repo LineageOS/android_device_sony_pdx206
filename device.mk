@@ -29,10 +29,6 @@ $(call inherit-product, device/sony/edo-common/edo.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # # DTBO
 # LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
 
