@@ -1054,6 +1054,25 @@ vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
+vendor/lib/camera.device@1.0-impl.so
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/libcammw_util.so
+vendor/lib/libcamera_nn_stub.so
+vendor/lib/libcamerapostproc.so
+vendor/lib/libcamxexternalformatutils.so
+vendor/lib/libcamxfacialfeatures.so
+vendor/lib/libcamxfdalgo.so
+vendor/lib/libcamxfdengine.so
+vendor/lib/libcamxifestriping.so
+vendor/lib/libcamximageformatutils.so
+vendor/lib/libcamxncs.so
+vendor/lib/libcamxstatscore.so
+vendor/lib/libcamxswprocessalgo.so
+vendor/lib/libcamxtintlessalgo.so
+vendor/lib64/camera.device@1.0-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
@@ -1278,6 +1297,8 @@ vendor/etc/qdcm_calib_data_sw43404_amoled_cmd_mode_dsi_boe_panel_with_DSC.xml
 vendor/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml
 vendor/etc/qdcm_calib_data_td4330_v2_cmd_mode_dsi_truly_panel.xml
 vendor/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_nt36672e_90Hz_fhd_plus_video_mode_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_sw43404_amoled_boe_fhd+_panel_with_DSC.xml
 
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
@@ -1462,6 +1483,7 @@ vendor/lib64/libizat_core.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/liblbs_core.so
 vendor/lib64/libloc_api_v02.so
+vendor/lib64/libloc_api_wds.so
 vendor/lib64/libloc_core.so
 vendor/lib64/libloc_socket.so
 vendor/lib64/liblocation_api.so
@@ -2471,6 +2493,23 @@ vendor/lib64/libc++_shared.so
 vendor/lib64/libsymphony-cpu.so
 vendor/etc/camera/camxoverridesettings.txt
 
+vendor/lib64/com.qti.feature2.memcpy.so
+vendor/lib64/com.qti.feature2.demux.so
+vendor/lib64/com.qti.feature2.stub.so
+vendor/lib64/com.qti.feature2.fusion.so
+vendor/lib64/com.qti.feature2.hdr.so
+vendor/lib64/com.qti.feature2.qcfa.so
+vendor/lib64/com.qti.feature2.gs.so
+vendor/lib64/com.qti.feature2.serializer.so
+vendor/lib64/com.qti.feature2.generic.so
+vendor/lib64/com.qti.feature2.anchorsync.so
+vendor/lib64/com.qti.feature2.rt.so
+vendor/lib64/com.qti.feature2.rawhdr.so
+vendor/lib64/com.qti.feature2.frameselect.so
+vendor/lib64/com.qti.feature2.mfsr.so
+vendor/lib64/com.qti.feature2.swmf.so
+
+
 ### Camera stuff
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libsony_animaleye.so
@@ -2521,3 +2560,7 @@ vendor/lib/libwfduibcinterface_proprietary.so
 # SIM control
 odm/etc/init/sony_ext_uim_ctrl.rc
 odm/bin/sony_ext_uim_ctrl
+
+
+vendor/lib64/libgralloccore.so
+vendor/lib64/libgrallocutils.so
