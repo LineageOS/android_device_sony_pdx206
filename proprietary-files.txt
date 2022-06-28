@@ -1510,8 +1510,8 @@ vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|885228b7ef9ffea1bf2ad085329a6a00d391fca7
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|5441e54edbaff68fbf626532c95c6980b51db582
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|dcabab23159d9c578ec82b7244d19343b9a99f82
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|7f97105f641afed5ac4bb2242c65ad6f9694a689
 -system_ext/framework/com.android.hotwordenrollment.common.util.jar
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 
