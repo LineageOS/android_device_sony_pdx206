@@ -44,7 +44,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=XQ-AT52 \
     TARGET_PRODUCT=XQ-AT52
 
-PRODUCT_PRODUCT_PROPERTIES += \
-                       lineage.updater.uri=https://lineage.bbntk.me/LineageOTA/api/v1/{device}/{type}/{incr}
-
 BUILD_FINGERPRINT := Sony/XQ-AT52/XQ-AT52:12/58.2.A.7.93/058002A007009304241360111:user/release-keys
