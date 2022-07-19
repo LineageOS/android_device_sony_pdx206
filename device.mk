@@ -22,18 +22,12 @@
 # definition file).
 #
 
-# Inherit from common
+# Inherit from sony sm8250-common
 $(call inherit-product, device/sony/edo-common/edo.mk)
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
-
-# # DTBO
-# LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
-
-# PRODUCT_COPY_FILES += \
-#     $(LOCAL_DTB):dtb.img
 
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
@@ -44,3 +38,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     $(LOCAL_PATH)/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf
+
+# Inherit from vendor blobs
+$(call inherit-product, vendor/sony/pdx203/pdx203-vendor.mk)
