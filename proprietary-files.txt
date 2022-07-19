@@ -93,16 +93,8 @@ system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio Extensions
-# vendor/lib64/liba2dpoffload.so
-# vendor/lib64/libbatterylistener.so
-# vendor/lib64/libcomprcapture.so
-# vendor/lib64/libexthwplugin.so
-# vendor/lib64/libhdmiedid.so
 vendor/lib64/libhdmipassthru.so
-# vendor/lib64/libhfp.so
-# vendor/lib64/libsndmonitor.so
 vendor/lib64/libsonydseehxwrapper.so
-# vendor/lib64/libspkrprot.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libsonydseehxwrapper.so
 
@@ -130,6 +122,19 @@ vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/libsony3daudioeffect.so
+vendor/lib64/libOARenderer.so
+vendor/lib64/libSForceVSE.so
+vendor/lib64/libvpt3d.so
+vendor/lib64/libHpEqApi.so
+vendor/lib64/libiVptApi.so
+vendor/lib64/libiVptHkiDec.so
+vendor/lib64/libiVptLibC.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libaudiokeymgr.so
+vendor/lib64/libops.so
 vendor/lib/librebuffering.so
 vendor/lib/libznr.so
 vendor/lib/soundfx/libasphere.so
@@ -138,22 +143,25 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libznrwrapper.so
+vendor/lib/soundfx/libdnnrwrapper.so
+vendor/lib/soundfx/libswdap.so
 vendor/lib/libsony3daudioeffect.so
-vendor/lib64/libsony3daudioeffect.so
+vendor/lib/libaudiosnpewrapper.so
+vendor/lib/libdapparamstorage.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
 vendor/lib/libOARenderer.so
-vendor/lib64/libOARenderer.so
 vendor/lib/libSForceVSE.so
-vendor/lib64/libSForceVSE.so
 vendor/lib/libvpt3d.so
-vendor/lib64/libvpt3d.so
 vendor/lib/libHpEqApi.so
-vendor/lib64/libHpEqApi.so
 vendor/lib/libiVptApi.so
 vendor/lib/libiVptHkiDec.so
 vendor/lib/libiVptLibC.so
-vendor/lib64/libiVptApi.so
-vendor/lib64/libiVptHkiDec.so
-vendor/lib64/libiVptLibC.so
+vendor/lib/libSNPE.so
+vendor/lib/libsnpe_dsp_domains_v2.so
+vendor/lib/libaudiokeymgr.so
+vendor/lib/libc++_shared.so
+vendor/lib/libsymphony-cpu.so
+vendor/lib/libops.so
 
 # Authsecret
 vendor/bin/hw/android.hardware.authsecret@1.0-service-qti
@@ -237,6 +245,99 @@ vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcammw_util.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcammw.so
+vendor/lib64/libSNPE.so
+vendor/lib64/libsnpe_dsp_domains_v2.so
+vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
+vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
+vendor/lib64/vendor.somc.camera.device@3.2-impl.so
+vendor/lib64/vendor.somc.camera.device@3.3-impl.so
+vendor/lib64/vendor.somc.camera.device@3.4-impl.so
+vendor/lib64/vendor.somc.camera.device@3.5-impl.so
+vendor/lib64/libsomc_camerahal.so
+vendor/lib64/libsomc_camerapal.so
+vendor/lib64/libsomc_formatconverter.so
+vendor/lib64/libsomc_cheesesconersc.so
+vendor/lib64/libsomc_cheesescone.so
+vendor/lib64/local_libcamera_metadata.so
+vendor/lib64/libsomc_formatconverterrsc.so
+vendor/lib64/libexcal_system.so
+vendor/lib64/libexcal_core.so
+vendor/lib64/libsomc_chokoballcmn.so
+vendor/lib64/libsomc_chokoballkeymgr.so
+vendor/lib64/libsomc_alfortlpserv.so
+vendor/lib64/libsomc_angelpie_impl.so
+vendor/lib64/libsomc_angelpie.so
+vendor/lib64/libsomc_avan_impl.so
+vendor/lib64/libsomc_avan.so
+vendor/lib64/libsomc_buttercakersc.so
+vendor/lib64/libsomc_buttercake.so
+vendor/lib64/libsomc_cornfrosty.so
+vendor/lib64/libsomc_donutscmnserv.so
+vendor/lib64/libsomc_facewrapper.so
+vendor/lib64/libsomc_flicker.so
+vendor/lib64/libsomc_marblersc.so
+vendor/lib64/libsomc_marble.so
+vendor/lib64/libsomc_milkyrollserv.so
+vendor/lib64/libsomc_parisbrestrsc.so
+vendor/lib64/libsomc_parisbrest.so
+vendor/lib64/libsomc_pdnserv.so
+vendor/lib64/libsomc_pretzchocorsc.so
+vendor/lib64/libsomc_pretzchoco.so
+vendor/lib64/libsomc_raisinclrsc.so
+vendor/lib64/libsomc_raisincl.so
+vendor/lib64/libsomc_raisinrsc.so
+vendor/lib64/libsomc_raisin.so
+vendor/lib64/libsomc_sheera_impl.so
+vendor/lib64/libsomc_sheera.so
+vendor/lib64/libsomc_shortcakersc.so
+vendor/lib64/libsomc_shortcake.so
+vendor/lib64/libsomc_soda_impl.so
+vendor/lib64/libsomc_soda.so
+vendor/lib64/libsomc_spicarsc.so
+vendor/lib64/libsomc_spica.so
+vendor/lib64/libsomc_sumomorsc.so
+vendor/lib64/libsomc_sumomo.so
+vendor/lib64/libsomc_yummyrsc.so
+vendor/lib64/libsomc_yummy.so
+vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so
+vendor/lib64/libc++_shared.so
+vendor/lib64/libsymphony-cpu.so
+vendor/etc/camera/camxoverridesettings.txt
+vendor/lib64/com.qti.feature2.memcpy.so
+vendor/lib64/com.qti.feature2.demux.so
+vendor/lib64/com.qti.feature2.stub.so
+vendor/lib64/com.qti.feature2.fusion.so
+vendor/lib64/com.qti.feature2.hdr.so
+vendor/lib64/com.qti.feature2.qcfa.so
+vendor/lib64/com.qti.feature2.gs.so
+vendor/lib64/com.qti.feature2.serializer.so
+vendor/lib64/com.qti.feature2.generic.so
+vendor/lib64/com.qti.feature2.anchorsync.so
+vendor/lib64/com.qti.feature2.rt.so
+vendor/lib64/com.qti.feature2.rawhdr.so
+vendor/lib64/com.qti.feature2.frameselect.so
+vendor/lib64/com.qti.feature2.mfsr.so
+vendor/lib64/com.qti.feature2.swmf.so
+vendor/lib64/libipebpsstriping.so
+vendor/lib64/libsony_animaleye.so
+vendor/lib64/libsony_asr.so
+vendor/lib64/libsony_facestab.so
+vendor/lib64/libsony_fc.so
+vendor/lib64/libsony_fooddetect.so
+vendor/lib64/libsony_naruto.so
+vendor/lib64/libsony_stab.so
+vendor/lib64/libiu456_datapath_processor.so
+vendor/lib64/libmpbase.so
+vendor/lib64/libcdfw.so
+vendor/lib64/hw/com.qti.chi.override.so
+vendor/etc/init/vendor.qti.cdsprpc-service.rc
+vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
+vendor/bin/vendor.qti.qspmhal@1.0-service
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+vendor/lib64/libgralloccore.so
+vendor/lib64/libgrallocutils.so
+vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
+vendor/lib64/vendor.qti.qspmhal@1.0.so
 vendor/camera/EIGER_0_EEPROM_FW_DATA_5_0x165c1010.dat
 vendor/camera/EIGER_1_EEPROM_FW_DATA_5_0x165d1010.dat
 vendor/camera/SEM12BS5/rpmp_ipe_asf30.dat
@@ -1264,7 +1365,6 @@ vendor/lib64/libhdr_tm.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libqseed3.so
-# vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-diag.so
@@ -1666,13 +1766,6 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
-# Light
-# vendor/lib64/hw/lights.default.so
-# vendor/lib64/liblights-core.so
-# vendor/lib64/libsys-utils.so
-# vendor/lib/liblights-core.so
-# vendor/lib/libsys-utils.so
-
 # Media
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
@@ -1695,16 +1788,8 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC Firmware
-# vendor/bin/hw/android.hardware.nfc@1.2-service
-# vendor/etc/init/android.hardware.nfc@1.2-service.rc
-# vendor/lib64/hal_libnfc.so
 vendor/lib64/libpn557_fw.so
-# vendor/lib64/nfc_nci_nxp.so
-# vendor/lib64/vendor.nxp.eventprocessor@1.0.so
-# vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so
-# vendor/lib64/vendor.nxp.nxpese@1.0.so
-# vendor/lib64/vendor.nxp.nxpnfc@2.0.so
-# vendor/lib64/libchrome.so
+
 
 # OMX
 vendor/lib/libAlacSwDec.so
@@ -1783,7 +1868,6 @@ vendor/lib64/libperfioctl.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
-# vendor/lib64/vendor.qti.hardware.perf@2.2.so
 
 # QMI
 etc/permissions/privapp-permissions-qti.xml
@@ -2263,7 +2347,6 @@ vendor/lib/liboemcrypto.so
 vendor/lib/libwvhidl.so
 vendor/lib/libwvtee.so
 vendor/lib/mediadrm/libwvdrmengine.so
-# vendor/lib64/libstagefrighthw.so
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 
 # Widevine DRM firmware
@@ -2303,7 +2386,6 @@ system_ext/etc/seccomp_policy/wfdservice.policy
 system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 system_ext/lib/libmmrtpdecoder.so
 system_ext/lib/libmmrtpencoder.so
-# vendor/lib/libwfdaac_vendor.so
 system_ext/lib/libwfdavenhancements.so
 system_ext/lib/libwfdclient.so
 system_ext/lib/libwfdcommonutils.so
@@ -2339,6 +2421,22 @@ system_ext/lib64/libwfduibcsink.so
 system_ext/lib64/libwfduibcsinkinterface.so
 system_ext/lib64/libwfduibcsrc.so
 system_ext/lib64/libwfduibcsrcinterface.so
+vendor/lib/libwfduibcsrc_proprietary.so
+vendor/lib/libwfdmmservice_proprietary.so
+vendor/lib/libwfdsourcesession_proprietary.so
+vendor/lib/libwfddisplayconfig_proprietary.so
+vendor/lib/libwfdutils_proprietary.so
+vendor/lib/libwfdmmsrc_proprietary.so
+vendor/lib/libwfduibcsinkinterface_proprietary.so
+vendor/lib/libwfdconfigutils_proprietary.so
+vendor/lib/libwfdcodecv4l2_proprietary.so
+vendor/lib/libwfdcommonutils_proprietary.so
+vendor/lib/libwfdrtsp_proprietary.so
+vendor/lib/libwfduibcsrcinterface_proprietary.so
+vendor/lib/libwfduibcsink_proprietary.so
+vendor/lib/libwfdsourcesm_proprietary.so
+vendor/lib/libwfdmminterface_proprietary.so
+vendor/lib/libwfduibcinterface_proprietary.so
 -system_ext/priv-app/WfdService/WfdService.apk
 
 # VPP
@@ -2411,156 +2509,18 @@ vendor/firmware/tzsecuredata.b07
 vendor/firmware/tzsecuredata.b03
 vendor/firmware/tzsecuredata.b02
 
-# FIXME: categorize them
-vendor/lib/soundfx/libdnnrwrapper.so
-vendor/lib64/soundfx/libswdap.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib/libaudiosnpewrapper.so
-vendor/lib/libdapparamstorage.so
-vendor/lib/vendor.dolby.hardware.dms@1.0.so
-vendor/lib64/vendor.dolby.hardware.dms@1.0.so
-vendor/lib64/libdapparamstorage.so
-vendor/lib/libSNPE.so
-vendor/lib64/libSNPE.so
-vendor/lib64/libsnpe_dsp_domains_v2.so
-vendor/lib/libsnpe_dsp_domains_v2.so
-vendor/lib/libaudiokeymgr.so
-vendor/lib64/libaudiokeymgr.so
-vendor/lib/libc++_shared.so
-vendor/lib/libsymphony-cpu.so
-vendor/lib64/libops.so
-vendor/lib/libops.so
-# vendor/lib64/hw/audio.primary.kona.so
-# vendor/lib/hw/audio.primary.kona.so
-
 # Modem
 vendor/bin/mlog_qmi_service
 vendor/etc/init/mlog_qmi_service.rc
-vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
-vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
-vendor/lib64/vendor.somc.camera.device@3.2-impl.so
-vendor/lib64/vendor.somc.camera.device@3.3-impl.so
-vendor/lib64/vendor.somc.camera.device@3.4-impl.so
-vendor/lib64/vendor.somc.camera.device@3.5-impl.so
-vendor/lib64/libsomc_camerahal.so
-vendor/lib64/libsomc_camerapal.so
-vendor/lib64/libsomc_formatconverter.so
-vendor/lib64/libsomc_cheesesconersc.so
-vendor/lib64/libsomc_cheesescone.so
-vendor/lib64/local_libcamera_metadata.so
-vendor/lib64/libsomc_formatconverterrsc.so
-vendor/lib64/libexcal_system.so
-vendor/lib64/libexcal_core.so
-vendor/lib64/libsomc_chokoballcmn.so
-vendor/lib64/libsomc_chokoballkeymgr.so
-vendor/lib64/libsomc_alfortlpserv.so
-vendor/lib64/libsomc_angelpie_impl.so
-vendor/lib64/libsomc_angelpie.so
-vendor/lib64/libsomc_avan_impl.so
-vendor/lib64/libsomc_avan.so
-vendor/lib64/libsomc_buttercakersc.so
-vendor/lib64/libsomc_buttercake.so
-vendor/lib64/libsomc_cornfrosty.so
-vendor/lib64/libsomc_donutscmnserv.so
-vendor/lib64/libsomc_facewrapper.so
-vendor/lib64/libsomc_flicker.so
-vendor/lib64/libsomc_marblersc.so
-vendor/lib64/libsomc_marble.so
-vendor/lib64/libsomc_milkyrollserv.so
-vendor/lib64/libsomc_parisbrestrsc.so
-vendor/lib64/libsomc_parisbrest.so
-vendor/lib64/libsomc_pdnserv.so
-vendor/lib64/libsomc_pretzchocorsc.so
-vendor/lib64/libsomc_pretzchoco.so
-vendor/lib64/libsomc_raisinclrsc.so
-vendor/lib64/libsomc_raisincl.so
-vendor/lib64/libsomc_raisinrsc.so
-vendor/lib64/libsomc_raisin.so
-vendor/lib64/libsomc_sheera_impl.so
-vendor/lib64/libsomc_sheera.so
-vendor/lib64/libsomc_shortcakersc.so
-vendor/lib64/libsomc_shortcake.so
-vendor/lib64/libsomc_soda_impl.so
-vendor/lib64/libsomc_soda.so
-vendor/lib64/libsomc_spicarsc.so
-vendor/lib64/libsomc_spica.so
-vendor/lib64/libsomc_sumomorsc.so
-vendor/lib64/libsomc_sumomo.so
-vendor/lib64/libsomc_yummyrsc.so
-vendor/lib64/libsomc_yummy.so
-vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so
-vendor/lib64/libc++_shared.so
-vendor/lib64/libsymphony-cpu.so
-vendor/etc/camera/camxoverridesettings.txt
 
-vendor/lib64/com.qti.feature2.memcpy.so
-vendor/lib64/com.qti.feature2.demux.so
-vendor/lib64/com.qti.feature2.stub.so
-vendor/lib64/com.qti.feature2.fusion.so
-vendor/lib64/com.qti.feature2.hdr.so
-vendor/lib64/com.qti.feature2.qcfa.so
-vendor/lib64/com.qti.feature2.gs.so
-vendor/lib64/com.qti.feature2.serializer.so
-vendor/lib64/com.qti.feature2.generic.so
-vendor/lib64/com.qti.feature2.anchorsync.so
-vendor/lib64/com.qti.feature2.rt.so
-vendor/lib64/com.qti.feature2.rawhdr.so
-vendor/lib64/com.qti.feature2.frameselect.so
-vendor/lib64/com.qti.feature2.mfsr.so
-vendor/lib64/com.qti.feature2.swmf.so
-
-
-### Camera stuff
-vendor/lib64/libipebpsstriping.so
-vendor/lib64/libsony_animaleye.so
-vendor/lib64/libsony_asr.so
-vendor/lib64/libsony_facestab.so
-vendor/lib64/libsony_fc.so
-vendor/lib64/libsony_fooddetect.so
-vendor/lib64/libsony_naruto.so
-vendor/lib64/libsony_stab.so
-vendor/lib64/libiu456_datapath_processor.so
-vendor/lib64/libmpbase.so
-vendor/lib64/libcdfw.so
-vendor/lib64/hw/com.qti.chi.override.so
-vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
-vendor/bin/vendor.qti.qspmhal@1.0-service
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-
-# WLAN Related
+# WLAN
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/etc/wifi/regdb.bin
-
-# Other stuff
-vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
-vendor/lib64/vendor.qti.qspmhal@1.0.so
 vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/etc/wifi/icm.conf
 vendor/etc/wifi/wifi_txpower.conf
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 
-vendor/lib/libwfduibcsrc_proprietary.so
-vendor/lib/libwfdmmservice_proprietary.so
-vendor/lib/libwfdsourcesession_proprietary.so
-vendor/lib/libwfddisplayconfig_proprietary.so
-vendor/lib/libwfdutils_proprietary.so
-vendor/lib/libwfdmmsrc_proprietary.so
-vendor/lib/libwfduibcsinkinterface_proprietary.so
-vendor/lib/libwfdconfigutils_proprietary.so
-vendor/lib/libwfdcodecv4l2_proprietary.so
-vendor/lib/libwfdcommonutils_proprietary.so
-vendor/lib/libwfdrtsp_proprietary.so
-vendor/lib/libwfduibcsrcinterface_proprietary.so
-vendor/lib/libwfduibcsink_proprietary.so
-vendor/lib/libwfdsourcesm_proprietary.so
-vendor/lib/libwfdmminterface_proprietary.so
-vendor/lib/libwfduibcinterface_proprietary.so
-
 # SIM control
 odm/etc/init/sony_ext_uim_ctrl.rc
 odm/bin/sony_ext_uim_ctrl
-
-
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
