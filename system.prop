@@ -52,19 +52,19 @@ persist.vendor.data.mode=concurrent
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # SOMC
-ro.semc.ms_type_id=PM-1281-BV
-ro.semc.product.device=AU
-ro.semc.product.model=XQ-AU52
-ro.semc.product.name=Xperia 1 II
-ro.semc.version.fs=GENERIC
-ro.semc.version.fs_revision=59.0.A.8.33
-ro.semc.version.sw=1311-7920
-ro.semc.version.sw_revision=59.0.A.8.33
-ro.semc.version.sw_type=user
-ro.semc.version.sw_variant=GLOBAL4GB-C2
+# ro.semc.ms_type_id=PM-1281-BV
+# ro.semc.product.device=AU
+# ro.semc.product.model=XQ-AU52
+# ro.semc.product.name=Xperia 1 II
+# ro.semc.version.fs=GENERIC
+# ro.semc.version.fs_revision=59.0.A.8.33
+# ro.semc.version.sw=1311-7920
+# ro.semc.version.sw_revision=59.0.A.8.33
+# ro.semc.version.sw_type=user
+# ro.semc.version.sw_variant=GLOBAL4GB-C2
 
 # Vendor
 ro.vendor.qti.va_aosp.support=1
 
 # Zygote
-persist.device_config.runtime_native.usap_pool_enabled=true
+# persist.device_config.runtime_native.usap_pool_enabled=true
