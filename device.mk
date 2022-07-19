@@ -23,7 +23,7 @@
 #
 
 # Inherit from sony sm8250-common
-$(call inherit-product, device/sony/edo-common/edo.mk)
+$(call inherit-product, device/sony/sm8250-common/edo.mk)
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
