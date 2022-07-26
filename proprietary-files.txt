@@ -1199,6 +1199,11 @@ vendor/lib/libsdsprpc.so
 vendor/lib/libsysmon_cdsp_skel.so
 vendor/lib/libmdsprpc.so
 
+# Charger
+vendor/etc/init/vendor.semc.hardware.charger@1.0-service.rc
+vendor/bin/hw/vendor.semc.hardware.charger@1.0-service
+vendor/lib64/vendor.semc.hardware.charger@1.0.so
+
 # CNE
 -vendor/app/CneApp/CneApp.apk
 vendor/bin/cnd
