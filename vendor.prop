@@ -135,6 +135,7 @@ dalvik.vm.heapmaxfree=8m
 
 # Display
 ro.vendor.display.cabl=0
+ro.surface_flinger.use_color_management=true
 vendor.display.disable_scaler=0
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
