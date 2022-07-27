@@ -1202,7 +1202,6 @@ vendor/lib/libmdsprpc.so
 # Charger
 vendor/etc/init/vendor.semc.hardware.charger@1.0-service.rc
 vendor/bin/hw/vendor.semc.hardware.charger@1.0-service
-vendor/lib64/vendor.semc.hardware.charger@1.0.so
 
 # CNE
 -vendor/app/CneApp/CneApp.apk
@@ -1351,9 +1350,6 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 # Display
 vendor/bin/hw/vendor.semc.hardware.display@2.2-service
 vendor/etc/init/vendor.semc.hardware.display@2.2-service.rc
-vendor/lib64/vendor.semc.hardware.display@2.0.so
-vendor/lib64/vendor.semc.hardware.display@2.1.so
-vendor/lib64/vendor.semc.hardware.display@2.2.so
 vendor/lib/libdpps.so
 vendor/lib64/libdpps.so
 
