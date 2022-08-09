@@ -19,10 +19,6 @@
 
 DEVICE_PATH := device/sony/pdx203
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
-
 # Display
 TARGET_SCREEN_DENSITY := 417
 
