@@ -24,9 +24,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# FIXME: this might not be right
-TARGET_BOOT_ANIMATION_RES := 1440
-TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 
 PRODUCT_NAME := lineage_pdx203
@@ -34,9 +31,6 @@ PRODUCT_DEVICE := pdx203
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := XQ-AT52
-
-PRODUCT_SYSTEM_NAME := XQ-AT52
-PRODUCT_SYSTEM_DEVICE := XQ-AT52
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
