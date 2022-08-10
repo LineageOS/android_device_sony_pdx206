@@ -20,7 +20,7 @@
 DEVICE_PATH := device/sony/pdx203
 
 # Display
-TARGET_SCREEN_DENSITY := 417
+TARGET_SCREEN_DENSITY := 420
 
 BOARD_KERNEL_CMDLINE += buildproduct=pdx203
 
