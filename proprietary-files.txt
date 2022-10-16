@@ -118,8 +118,6 @@ vendor/lib64/libiu456_datapath_processor.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libcdfw.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
 vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/bin/vendor.qti.qspmhal@1.0-service
