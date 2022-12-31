@@ -26,8 +26,8 @@
 $(call inherit-product, device/sony/sm8250-common/edo.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2520
+TARGET_SCREEN_WIDTH := 1080
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
