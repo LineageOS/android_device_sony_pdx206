@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE_COMMON=pdx203
+export DEVICE_COMMON=pdx206
 export DEVICE_COMMON=sm8250-common
 export VENDOR=sony
 

@@ -26,8 +26,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 IS_PHONE := true
 
-PRODUCT_NAME := lineage_pdx203
-PRODUCT_DEVICE := pdx203
+PRODUCT_NAME := lineage_pdx206
+PRODUCT_DEVICE := pdx206
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := XQ-AT52

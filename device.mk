@@ -43,4 +43,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx203/pdx203-vendor.mk)
+$(call inherit-product, vendor/sony/pdx206/pdx206-vendor.mk)
