@@ -31,7 +31,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
