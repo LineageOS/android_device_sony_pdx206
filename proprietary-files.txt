@@ -1,5 +1,27 @@
 # Stock package version: Sony/XQ-AS72/XQ-AS72:12/58.2.A.10.126/058002A010012603718185433:user/release-keys
 
+# ACDB
+vendor/etc/acdbdata/Sony_edo_Handset_cal.acdb
+vendor/etc/acdbdata/Sony_edo_Headset_cal.acdb
+vendor/etc/acdbdata/Sony_edo_Speaker_cal.acdb
+
+# Audio FX Modules
+vendor/etc/zoom_noise_reduction/znr_44k_ComboCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_FrontCHICam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_NoCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_SWideCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_TeleCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_WideCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_defaultCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_ComboCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_FrontCHICam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_NoCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_SWideCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_TeleCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_WideCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_defaultCam.tbl
+vendor/etc/zoom_noise_reduction/znr_parameter.xml
+
 # Camera
 vendor/camera/CERVIN_0_EEPROM_FW_DATA_1_0x16631040.dat
 vendor/camera/CERVIN_0_EEPROM_FW_DATA_1_0x16632000.dat
@@ -614,8 +636,62 @@ vendor/lib64/libsomc_thermal.so
 # Display calibration data
 vendor/etc/qdcm_calib_data_1.xml
 
+# Sensor configs
+vendor/etc/sensors/config/kona_ak991x_0_somc_product.json
+vendor/etc/sensors/config/kona_lsm6dsm_0_somc_product.json
+
 # Thermal configs
 oem/etc/change.cfg:vendor/etc/change.cfg
 
+# Thermal engine
+oem/etc/thermal-engine.conf:vendor/etc/thermal-engine.conf
+
 # Touchscreen firmware
 vendor/firmware/touch_module_id_0x94.img
+
+# Wifi firmware
+vendor/bin/cnss-daemon
+vendor/etc/wifi/bdwlan.e16
+vendor/etc/wifi/bdwlan.e17
+vendor/etc/wifi/bdwlan.elf
+
+# Other maybe needed firmware
+vendor/firmware/L-cs35l41-dsp1-spk-cali.bin
+vendor/firmware/L-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/R-cs35l41-dsp1-spk-cali.bin
+vendor/firmware/R-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/a615_zap.b00
+vendor/firmware/a615_zap.b01
+vendor/firmware/a615_zap.b02
+vendor/firmware/a615_zap.elf
+vendor/firmware/a615_zap.mdt
+vendor/firmware/a619_gmu.bin
+vendor/firmware/a620_zap.b00
+vendor/firmware/a620_zap.b01
+vendor/firmware/a620_zap.b02
+vendor/firmware/a620_zap.elf
+vendor/firmware/a620_zap.mdt
+vendor/firmware/a630_sqe.fw
+vendor/firmware/cs35l41-dsp1-spk-cali.wmfw
+vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
+vendor/firmware/egista.b00
+vendor/firmware/egista.b01
+vendor/firmware/egista.b02
+vendor/firmware/egista.b03
+vendor/firmware/egista.b04
+vendor/firmware/egista.b05
+vendor/firmware/egista.b06
+vendor/firmware/egista.b07
+vendor/firmware/egista.mdt
+vendor/firmware/tzsecuredata.b00
+vendor/firmware/tzsecuredata.b01
+vendor/firmware/tzsecuredata.b02
+vendor/firmware/tzsecuredata.b03
+vendor/firmware/tzsecuredata.b04
+vendor/firmware/tzsecuredata.b05
+vendor/firmware/tzsecuredata.b06
+vendor/firmware/tzsecuredata.b07
+vendor/firmware/tzsecuredata.mdt
+
+# WLAN
+vendor/etc/wifi/wifi_txpower.conf
