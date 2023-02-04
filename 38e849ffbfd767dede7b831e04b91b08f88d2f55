@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebef6cda_0b34ea95",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-02-04T12:45:05Z",
+      "side": 1,
+      "message": "We copy the common keylayout to system and pdx206 specific layout to vendor. This is how sony stock behaves.\nPlease test.",
+      "revId": "38e849ffbfd767dede7b831e04b91b08f88d2f55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
