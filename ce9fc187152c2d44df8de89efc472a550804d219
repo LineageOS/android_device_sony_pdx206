@@ -33,6 +33,24 @@
       "message": "ok. (ASSIST does work on my Xperia 1 iii though)",
       "revId": "ce9fc187152c2d44df8de89efc472a550804d219",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61101b4e_6a87297b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-02-05T06:46:21Z",
+      "side": 1,
+      "message": "I tested with Settings\u003eSystem\u003eButtons\u003eSearch button.",
+      "parentUuid": "6e87837e_4a26a1d8",
+      "revId": "ce9fc187152c2d44df8de89efc472a550804d219",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
