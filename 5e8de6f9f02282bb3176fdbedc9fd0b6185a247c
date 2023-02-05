@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "875b144c_f8561842",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-02-05T07:22:00Z",
+      "side": 1,
+      "message": "This is not required (default is false). But, it is desirable to define.",
+      "revId": "5e8de6f9f02282bb3176fdbedc9fd0b6185a247c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
