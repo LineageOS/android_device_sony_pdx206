@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c647573_6c90e284",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-02-05T06:33:20Z",
+      "side": 1,
+      "message": "ASSIST didn\u0027t work with lineageos.\nSEARCH/WAKE works well.",
+      "revId": "ce9fc187152c2d44df8de89efc472a550804d219",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
