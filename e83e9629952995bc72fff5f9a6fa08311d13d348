@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7361e764_713e79d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29356
+      },
+      "writtenOn": "2023-02-17T09:15:17Z",
+      "side": 1,
+      "message": "My device always boots in 60 Hz without these properties, rendering the smooth display switch unusable.",
+      "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
