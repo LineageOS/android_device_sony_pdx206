@@ -16,6 +16,23 @@
       "message": "My device always boots in 60 Hz without these properties, rendering the smooth display switch unusable.",
       "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1883eb1f_e15778df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-02-17T10:38:02Z",
+      "side": 1,
+      "message": "Where do these values come from?\nWhy use product.prop instead of system.prop or vendor.prop?",
+      "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
