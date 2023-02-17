@@ -33,6 +33,24 @@
       "message": "Where do these values come from?\nWhy use product.prop instead of system.prop or vendor.prop?",
       "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c98a6ed_cdf4f61c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29356
+      },
+      "writtenOn": "2023-02-17T11:27:55Z",
+      "side": 1,
+      "message": "From https://source.android.com/docs/core/graphics/multiple-refresh-rate#platform-refresh-rate , stock ROM doesn\u0027t use AOSP smooth display control.\n\nUsing setting for Pixel devices ( https://cs.android.com/android/platform/superproject/+/master:device/google/gs201/factory_common.mk;l\u003d51?q\u003dset_touch_timer_ms ) will result in noticeable flickering, so I make it wait longer before switching back to 60 Hz.\n\nThese props are not used to declare hardware capabilities, it\u0027s fine to use either system.prop or product.prop. I have no particular preference but still need to add one since they\u0027re not suitable for vendor.prop.\n\nAlternatively, we can abuse config_highDisplayBrightnessThresholdsOfFixedRefreshRate to enforce 120 Hz mode. i.e. use 120 Hz when display brightness \u003e\u003d 0 \u0026\u0026 ambient brightness \u003e\u003d 0",
+      "parentUuid": "1883eb1f_e15778df",
+      "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
