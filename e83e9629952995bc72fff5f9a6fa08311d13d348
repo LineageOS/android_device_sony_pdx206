@@ -51,6 +51,24 @@
       "parentUuid": "1883eb1f_e15778df",
       "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87bff275_5d3aa88d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-02-18T01:00:09Z",
+      "side": 1,
+      "message": "Thank you. I understood.\n\nI have tested with the following values and they worked fine:\nro.surface_flinger.set_idle_timer_ms\u003d4000\nro.surface_flinger.set_touch_timer_ms\u003d4000\nro.surface_flinger.set_display_power_timer_ms\u003d1000\nro.surface_flinger.use_content_detection_for_refresh_rate\u003dtrue\nThese values come from here:\nhttps://github.com/AOSPA/android_device_xiaomi_alioth/blob/topaz/device.mk\n\nWhat do you think of these values? Are these values okay?",
+      "parentUuid": "0c98a6ed_cdf4f61c",
+      "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
