@@ -69,6 +69,24 @@
       "parentUuid": "0c98a6ed_cdf4f61c",
       "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39423444_ce0308b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29356
+      },
+      "writtenOn": "2023-02-18T02:01:20Z",
+      "side": 1,
+      "message": "They also have a config_defaultRefreshRateInZone setting but no config_brightnessThresholdsOfPeakRefreshRate, not sure how it will behave.\n\nWe may also need overlay config_brightnessThresholdsOfPeakRefreshRate and config_ambientThresholdsOfPeakRefreshRate to block refresh rate switching in low brightness, like https://cs.android.com/android/platform/superproject/+/master:device/google/raviole/raven/overlay/frameworks/base/core/res/res/values/config.xml;l\u003d90?q\u003dconfig_defaultRefreshRateInZone",
+      "parentUuid": "87bff275_5d3aa88d",
+      "revId": "e83e9629952995bc72fff5f9a6fa08311d13d348",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
