@@ -1,1 +1,1 @@
-require board=kona|pdx206
+require board=kona|pdx206|XQ-AS72
