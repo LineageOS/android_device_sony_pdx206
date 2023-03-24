@@ -38,8 +38,12 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0
 
 # Overlays
+PRODUCT_PACKAGES += \
+    SonyPDX206FrameworksRes \
+    SonyPDX206SettingsRes \
+    SonyPDX206SystemUIRes
+
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
 # HDR
