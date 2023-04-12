@@ -633,6 +633,9 @@ vendor/lib64/camera/com.sony.sensormodule.cervin_imx557.bin
 vendor/lib64/camera/com.sony.sensormodule.cervin_s5k3t2.bin
 vendor/lib64/libsomc_thermal.so
 
+# Charger
+vendor/etc/chg-pwr-service.cfg
+
 # Display calibration data
 vendor/etc/qdcm_calib_data_1.xml
 
