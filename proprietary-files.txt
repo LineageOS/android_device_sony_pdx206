@@ -654,9 +654,9 @@ vendor/firmware/touch_module_id_0x94.img
 
 # Wifi firmware
 vendor/bin/cnss-daemon
-vendor/etc/wifi/bdwlan.e16
-vendor/etc/wifi/bdwlan.e17
-vendor/etc/wifi/bdwlan.elf
+vendor/etc/wifi/bdwlan.e16;SYMLINK=vendor/firmware/qca6390/bdwlan.e16
+vendor/etc/wifi/bdwlan.e17;SYMLINK=vendor/firmware/qca6390/bdwlan.e17
+vendor/etc/wifi/bdwlan.elf;SYMLINK=vendor/firmware/qca6390/bdwlan.elf
 
 # Other maybe needed firmware
 vendor/firmware/L-cs35l41-dsp1-spk-cali.bin
