@@ -1,8 +1,7 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2021 The LineageOS Project
-#
+# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -14,11 +13,11 @@ fi
 
 set -e
 
-# Required!
 export DEVICE=pdx206
 export DEVICE_COMMON=sm8250-common
 export VENDOR=sony
+export VENDOR_COMMON=${VENDOR}
 
 export DEVICE_BRINGUP_YEAR=2020
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
