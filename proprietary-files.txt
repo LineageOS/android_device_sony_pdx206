@@ -631,7 +631,6 @@ vendor/camera/version.dat
 vendor/lib64/camera/com.sony.sensormodule.cervin_imx363.bin
 vendor/lib64/camera/com.sony.sensormodule.cervin_imx557.bin
 vendor/lib64/camera/com.sony.sensormodule.cervin_s5k3t2.bin
-vendor/lib64/libsomc_thermal.so
 
 # Charger
 vendor/etc/chg-pwr-service.cfg
