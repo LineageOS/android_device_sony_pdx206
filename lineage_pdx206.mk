@@ -30,7 +30,7 @@ PRODUCT_NAME := lineage_pdx206
 PRODUCT_DEVICE := pdx206
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := XQ-AS72
+PRODUCT_MODEL := Xperia 5 II
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
@@ -38,4 +38,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="XQ-AS72-user 12 58.2.A.10.126 058002A010012603718185433 release-keys" \
     BuildFingerprint=Sony/XQ-AS72/XQ-AS72:12/58.2.A.10.126/058002A010012603718185433:user/release-keys \
     DeviceName=XQ-AS72 \
-    DeviceProduct=XQ-AS72
+    DeviceProduct=XQ-AS72 \
+    SystemDevice=XQ-AS72 \
+    SystemName=XQ-AS72
